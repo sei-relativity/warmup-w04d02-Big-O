@@ -16,6 +16,7 @@ function wordOccurrence(word, phrase){
   return result
 }
 ```
+O(N)
 
 #### #2
 
@@ -33,7 +34,7 @@ function bubble_sort(list){
   return list;
 }
 ```
-
+O(N^2)
 #### #3
 ```javascript
 function factorial(n){
@@ -44,7 +45,7 @@ function factorial(n){
   }
 }
 ```
-
+O(N)
 #### #4
 
 ```javascript
@@ -52,7 +53,7 @@ function bobIsFirst(people){
   return people[0] == 'bob'
 }
 ```
-
+O(1)
 #### #5
 
 ```javascript
@@ -68,6 +69,7 @@ function isPalindrome(input){
   return output == input
 }
 ```
+O(N)
 
 #### #6
 ```javascript
@@ -83,7 +85,7 @@ function sumOfDivisors(n){
   return result
 }
 ```
-
+O(N)
 #### #7
 ```javascript
 function printAllNumbersThenSumPairs(numArray){
@@ -97,7 +99,7 @@ function printAllNumbersThenSumPairs(numArray){
   });
 }
 ```
-
+O(N)
 #### #8
 ```javascript
 function isPrime(num){
@@ -112,3 +114,4 @@ function isPrime(num){
   return true
 }
 ```
+O(N)
