@@ -45,7 +45,7 @@ function factorial(n){
   }
 }
 ```
-O(N!)
+O(N)
 #### #4
 
 ```javascript
